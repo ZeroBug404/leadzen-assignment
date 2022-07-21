@@ -1,0 +1,28 @@
+.service_details{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    margin: 15px 0px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+
+.service_details div{
+    width: 150px;
+}
+
+.detail_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail_btn button{
+    background-color: tomato;
+    border: none;
+    padding: 13px 23px;
+    border-radius: 5px;
+}
+.detail_btn button:hover{
+    background-color: rgb(236, 82, 55);
+}
