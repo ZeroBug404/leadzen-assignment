@@ -15,7 +15,7 @@ const Services = () => {
       });
   }, [users]);
 
-  const usersPerPage = 4;
+  const usersPerPage = 3;
   const pageVisited = pageNumber * usersPerPage;
 
   const displayUsers = users
@@ -36,7 +36,7 @@ const Services = () => {
 
   return (
     <section className="users">
-      <h2>Users & Contacts</h2>
+      <h2>Users</h2>
 
       <div className="user_Items">
         {displayUsers}

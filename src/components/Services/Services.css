@@ -1,9 +1,11 @@
 .users h2{
     text-align: center;
+    font-size: 30px;
+    color: tomato;
 }
 .user_Items {
     background: rgb(232, 231, 235);
-    padding: 20px 40px;
+    padding: 10px 140px;
 }
 .pagination{
     text-align: center;
